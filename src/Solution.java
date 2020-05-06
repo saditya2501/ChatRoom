@@ -1,5 +1,5 @@
+//HackerRank
 import java.util.Scanner;
-
 public class Solution {
 
     public static void main(String[] args) {
@@ -9,15 +9,11 @@ public class Solution {
         Character[] S= {'h', 'e', 'l', 'l', 'o'};
         int index = 0;
         char req = S[index];
-        for (char c : str.toCharArray())
-        {
-            if (c == req && index == 4)
-            {
+        for (char c : str.toCharArray()) {
+            if (c == req && index == 4) {
                 System.out.println("YES");
                 return;
-            }
-            else if (c == req)
-            {
+            } else if (c == req) {
                 index++;
                 req = S[index];
             }
