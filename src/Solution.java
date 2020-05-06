@@ -1,4 +1,4 @@
-//HackerRank Solution
+//HackerRank Question Solution
 import java.util.Scanner;
 public class Solution {
 
